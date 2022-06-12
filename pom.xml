@@ -11,6 +11,7 @@
     <modules>
         <module>thread-simple</module>
         <module>juc-lecture</module>
+        <module>action-lecture</module>
     </modules>
 
     <properties>
@@ -19,4 +20,11 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
+        </dependency>
+    </dependencies>
 </project>
